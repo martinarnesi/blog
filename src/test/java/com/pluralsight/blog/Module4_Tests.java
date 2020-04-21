@@ -312,7 +312,7 @@ public class Module4_Tests {
         Element h3Elem = h3Elements.get(0);
         assertNotNull("Task 7: The template doesn't have an `<h3>` tag.", h3Elem);
 
-        boolean h3CorrectText = h3Elem.text().contains("Sarah Holderness");
+        boolean h3CorrectText = h3Elem.text().contains("Martin Arnesi");
 
         message = "Task 7: The first post's first `<h3>` tag should display `Sarah Holderness` as the author.";
         assertTrue(message, h3CorrectText);
